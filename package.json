@@ -20,6 +20,9 @@
         "@elastic/datemath": "^5.0.3",
         "@emotion/css": "^11.11.2",
         "@emotion/react": "^11.11.1",
+        "@types/classnames": "^2.3.1",
+        "@types/react": "^18.2.15",
+        "classnames": "^2.3.2",
         "moment": "^2.29.4",
         "prop-types": "^15.8.1",
         "react": "^17.0.2"

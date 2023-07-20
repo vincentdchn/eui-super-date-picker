@@ -1,0 +1,4 @@
+// Remove borders without deleting the prop just yet
+.euiHeaderSectionItem::after {
+  display: none !important; // stylelint-disable-line declaration-no-important
+}
