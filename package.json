@@ -1,0 +1,45 @@
+{
+    "name": "eui-super-date-picker",
+    "version": "0.0.1",
+    "description": "Elastic UI Super Date Picker - standalone",
+    "scripts": {
+        "build": "tsup ./src"
+    },
+    "homepage": "",
+    "url": "",
+    "email": "vincentduchene.m@gmail.com",
+    "keywords": [
+        "tsup",
+        "npm",
+        "template",
+        "typescript"
+    ],
+    "author": "vincentdchn",
+    "license": "ISC",
+    "dependencies": {
+        "@elastic/datemath": "^5.0.3",
+        "@emotion/css": "^11.11.2",
+        "@emotion/react": "^11.11.1",
+        "moment": "^2.29.4",
+        "prop-types": "^15.8.1",
+        "react": "^17.0.2"
+    },
+    "devDependencies": {
+        "tsup": "^6.7.0",
+        "typescript": "^5.1.6"
+    },
+    "files": [
+        "dist",
+        "package.json"
+    ],
+    "exports": {
+        ".": {
+            "require": "./dist/index.js",
+            "import": "./dist/index.mjs",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts"
+}
